@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">hey its me box..!</div>
+    <button class="btn1" id="changetext">change text</button>
+    <button id="hidebox">hide</button>
+    <button id="showbox">show</button>
+
+    <script>
+        $(document).ready(function(){
+            $("Changetext").click(function(){
+                $("#box").text("text has been changes");
+            })
+        });
+        $("#hidebox").click(function(){
+            $("#box").fadeOut();
+        })
+        $("#show box").click(function(){
+            $("#box").fadeIn();
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+    color: rgb(5, 45, 55);
+}
+.mon{
+    background-color: rgba(255, 0, 0, 0.979);
+}
+.tue{
+    background-color: rgb(174, 18, 4);
+}
+.wed{
+    background-color: firebrick;
+}
+.thur{
+    background-color: orangered;
+}
+.fri{
+    background-color: lightgreen;
+}

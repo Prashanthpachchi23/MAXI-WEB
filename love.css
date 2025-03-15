@@ -1,0 +1,16 @@
+h1{
+
+color: saddlebrown;}
+ input{
+    padding: 15px;
+    font-size: 10px;
+    width: 300px;
+    border: 5px peachpuff;
+    border-radius: 5px;
+ }
+button{
+    border-color: gray;
+    animation: ease;
+    align-content: center;
+    border-radius: 5px rgb(78, 226, 239);
+}

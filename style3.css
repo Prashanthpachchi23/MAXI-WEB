@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ body{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px
+ }
+ .container{
+    width: 100%;
+    max-width: 900px;
+ }
+ .profile-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: lightgray;
+    border-radius: 10px;
+    box-shadow: 0 0 10px whitesmoke;
+    overflow: hidden;
+    align-items: stretch;
+ }
+ .left-section{
+    flex: 1;
+    max-width: 35%;
+    background: darkgrey;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+ }
+ .profile-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid black;
+ }
+ .social-media{
+   margin-top: 15px;
+ }
+ .social-media{
+  display: inline-block;
+  color: white;
+  margin: 5px;
+  font-size: 14px;
+  text-decoration: none;
+ }
+ .role{
+   font-style: italic;
+   margin-bottom: 15px;
+   margin-top: 5px;
+ }
+ h3{
+   margin-top: 20px;
+ }
+ .right-section{
+   flex: 2;
+   padding: 20px;
+   background: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ p{
+   margin-bottom: 10px;
+ }
+ .skill{
+   margin-bottom: 15px;
+ }
+ .progress{
+   height: 8px;
+   width: 100%;
+   background: whitesmoke;
+   border-radius: 5px;
+   overflow: hidden;
+ }
+ .progress div{
+   height: 100%; 
+   background:black;
+ }
+ ul{
+   padding-left: 20px;
+ }
+ li{
+   margin-bottom: 5px;
+ }
+ @media(max-width: 768px) {
+  .profile-box{
+    flex-direction: column;
+  }
+  .left-section, .right-section{
+    max-with:100;
+    width: 100;
+    text-align: center;
+  }
+ }

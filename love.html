@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="love.css">
+</head>
+<body>
+    <h1> Boy: Hloo can I get your number</h1>
+    <input type=" text" id="ans" placeholder="enter your answer">
+    <button onclick="fun()">submit</button>
+    <p id="res">will see here</p>
+    <script>
+        function fun(){
+            var answer = document.getElementById("ans").value;
+            var res = document.getElementById("res")
+        while(answer !== "yes"){
+            res.innerHTML = "This is the last time iam asking will you give or not😒"
+            return;
+        }
+        res.innerHTML = "Okay i'll text you later😊"
+        }
+    </script>
+</body>
+</html>

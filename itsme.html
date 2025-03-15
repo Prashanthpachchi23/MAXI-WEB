@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        .box{
+            width:100px;
+            height: 100px;
+            background-color: rgb(27, 254, 2);
+            margin: 20px;
+            border-radius: 20%;
+        }
+    </style>
+
+</head>
+<body>
+     <div class="box" id="box">HEY it box.....!</div>
+     <button class="btnl" id="changetext">change text</button>
+     <button id="hidebox">Hide</button>
+     <button id="showbox">Show</button>
+
+     <script>
+        $(document).ready(function(){
+            $("#changetext").click(function(){
+                $("#box").text("Text has been changes");
+            })
+        });
+
+        $("#hidebox").click(function(){
+            $("#box").fadeOut();
+        });
+        $("#showbox").click(function(){
+            $("#box").fadeIn();
+        });
+
+     </script>
+</body>
+</html>

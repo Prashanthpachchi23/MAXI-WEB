@@ -1,0 +1,10 @@
+div{
+   
+    display: inline-block;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    filter: drop-shadow(10px 10px 10px black);
+    background-image: url(750x450_398309-election-commission-of-india-eci-and-sc.jpg);
+}
+

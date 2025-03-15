@@ -1,0 +1,23 @@
+#box{
+    background-color: olive;
+}
+
+.heading{
+    background-color: red;
+}
+.heading1{
+    background-color: red;
+}
+body{
+    background-image: url(Beginners-Guide-to-Night-Photography-II.jpg);
+    background-repeat:repeat;
+    /* background-position: 90px;
+    background-attachment: local;
+    background-color: yellowgreen; */
+}
+
+body{
+    font-family: cursive;
+    font-size: large r;
+    font-weight: 300;
+    }
